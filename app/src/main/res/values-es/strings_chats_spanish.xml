@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Chats list Activity-->
+    <string name="chats_list_title">Chat Médico</string>
+    <string name="search">Buscar</string>
+    <string name="chat_list_description">Lista de chats con tu doctor</string>
+    <string name="patient_icon_description">Ícono del paciente</string>
+    <string name="filter_by_id">ID</string>
+    <string name="search_by_id">Buscar por ID</string>
+
+    <string name="attach">Adjuntar</string>
+    <string name="type_message">Escribe un mensaje</string>
+    <string name="send">Enviar</string>
+
+    <!-- Chats profile Activity-->
+    <string name="no_patient_data_found">No se encontraron datos del paciente</string>
+    <string name="userid_does_not_exist">El userId no existe</string>
+    <string name="the_userid_is_null_or_empty">El userId es nulo o está vacío</string>
+    <string name="no_image_found_for_userid">No se encontró imagen para el userId: </string>
+    <string name="could_not_load_profile_picture">No se pudo cargar la foto de perfil</string>
+
+    <string name="patient_name">Nombre Paciente</string>
+    <string name="patient_full_name">Nombre Completo Paciente</string>
+    <string name="kg">kg</string>
+    <string name="cm">cm</string>
+
+
+</resources>

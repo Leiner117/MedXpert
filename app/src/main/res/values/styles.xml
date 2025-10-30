@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Calendar styles -->
+    <style name="CustomDatePickerDialog" parent="ThemeOverlay.Material3.MaterialCalendar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorSecondary">@color/blue</item>
+    </style>
+
+    <!-- TimePicker styles -->
+    <style name="CustomTimePickerDialog" parent="ThemeOverlay.Material3.MaterialTimePicker">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+
+    <!-- TabLayout styles -->
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily" >rounded</item>
+        <item name="cornerSize" >100%</item>
+    </style>
+
+    <style name="CustomPopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:colorBackground">@color/blue_light_filter</item>
+    </style>
+
+    <!-- Calendar diagnostic -->
+    <style name="CustomDatePickerTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorSurface">@color/white</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+
+
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+</resources>

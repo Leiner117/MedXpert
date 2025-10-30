@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Main Activity -->
+    <string name="btn_view_doctor">Vista Doctor</string>
+    <string name="btn_view_patient">Vista Paciente</string>
+    <string name="btn_view_add_medication">Vista Medicamento</string>
+    <string name="btn_view_medications">Vista Medicamentos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="id">ID</string>
+
+
+    <!-- Delete account error -->
+    <string name="error_account_deleted">Tu cuenta ha sido eliminada. Contacta con el servicio de asistencia.</string>
+    <string name="unknown_error">Se produjo un error inesperado. Inténtalo de nuevo.</string>
+
+
+    <!-- Firebase -->
+    <string name="default_web_client_id">100197141863996674882</string>
+
+
+
+
+
+
+    <string name="deactivate_account">Cuenta desactivada</string>
+    <string name="logout">Cerrar sesión</string>
+
+
+
+</resources>

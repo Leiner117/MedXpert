@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diagnostic_title">Diagnóstico</string>
+    <string name="diagnostic_select_medication">Seleccionar medicamento</string>
+    <string name="diagnostic_title_usage_frequency">Editar frecuencia de uso</string>
+
+    <string name="lb_form_name">Nombre</string>
+    <string name="lb_form_weight">Peso</string>
+    <string name="lb_form_physical_examination">Examen físico</string>
+    <string name="lb_form_medicines">Medicamentos</string>
+    <string name="lb_form_vital_signs">Signos vitales</string>
+    <string name="lb_form_heartbeat">Frecuencia cardíaca</string>
+    <string name="lb_form_temperature">Temperatura</string>
+    <string name="lb_form_blood_pressure">Presión arterial</string>
+    <string name="lb_form_oxygen_saturation">Saturación de oxígeno</string>
+    <string name="lb_form_reason_for_consultation">Motivo de consulta</string>
+    <string name="lb_form_subjective_condition">Condición subjetiva</string>
+    <string name="lb_form_objective_condition">Condición objetiva</string>
+    <string name="lb_form_analysis_and_plan">Análisis y plan</string>
+    <string name="lb_form_upload_images">Subir imágenes</string>
+
+    <string name="lb_form_selected_medication">Medicamento seleccionado:</string>
+    <string name="lb_form_selected_every">Cada:</string>
+    <string name="lb_form_selected_for">Durante:</string>
+    <string name="lb_form_selected_dosage">Dosis:</string>
+
+    <string name="lb_form_edit_medication_doctor">Medicamento:</string>
+
+    <string name="lb_form_sign_vital_title">Ingresar valor</string>
+    <string name="lb_form_sign_vital_description">Ingresa el valor correspondiente:</string>
+    <string name="btn_form_sign_vital_save">Guardar</string>
+
+    <string name="btn_form_add_medicines">Agregar medicamentos</string>
+    <string name="btn_form_choose_image">Elegir imagen</string>
+    <string name="btn_form_save_diagnostic">Guardar diagnóstico</string>
+    <string name="btn_form_medecine_cancel">Cancelar</string>
+    <string name="btn_form_medecine_delete">Eliminar</string>
+    <string name="btn_form_medecine_add">Agregar</string>
+
+    <string name="hint_form_diagnostic">Valor</string>
+    <string name="hint_form_hours">Horas</string>
+    <string name="hint_form_days">Días</string>
+    <string name="hint_form_search">Buscar</string>
+
+    <string name="desc_form_upload">Subir</string>
+    <string name="desc_form_list_medication">Lista de medicamentos</string>
+    <string name="desc_form_medicine_icon">Ícono de medicamento</string>
+    <string name="desc_form_select_delete_medicine">Eliminar medicamento</string>
+    <string name="desc_form_select_edit_medicine">Editar medicamento</string>
+
+    <string name="hours_format">%d horas</string>
+    <string name="days_format">%d días</string>
+    <string name="selected_medicine">Medicamento seleccionado: %1$s</string>
+    <string name="dialog_description">Ingresa el valor de %1$s:</string>
+    <string name="lb_form_edit_medication_doctor_placeholder">Medicamento: %1$s</string>
+
+    <string name="error_weight_required">El peso es obligatorio</string>
+    <string name="error_physical_examination_required">El examen físico es obligatorio</string>
+    <string name="error_reason_for_consultation_required">El motivo de consulta es obligatorio</string>
+    <string name="error_subjective_condition_required">La condición subjetiva es obligatoria</string>
+    <string name="error_objective_condition_required">La condición objetiva es obligatoria</string>
+    <string name="error_analysis_plan_required">El análisis y plan son obligatorios</string>
+
+    <string name="error_vital_signs_required">Todos los signos vitales son obligatorios. Por favor completa:\n• Frecuencia cardíaca\n• Temperatura\n• Presión arterial\n• Saturación de oxígeno</string>
+    <string name="vital_sign_heart_rate">Frecuencia cardíaca</string>
+    <string name="vital_sign_temperature">Temperatura</string>
+    <string name="vital_sign_blood_pressure">Presión arterial</string>
+    <string name="vital_sign_oxygen_saturation">Saturación de oxígeno</string>
+
+    <string name="error_missing_vital_signs">Los siguientes signos vitales son obligatorios:\n\n</string>
+    <string name="dialog_missing_vital_signs_title">Signos vitales faltantes</string>
+
+    <string name="dialog_confirm_deletion_title">Confirmar eliminación</string>
+    <string name="dialog_confirm_delete_medication_message">¿Estás segura de que deseas eliminar este medicamento?</string>
+    <string name="dialog_positive_button_delete">Eliminar</string>
+    <string name="toast_medication_eliminated">Medicamento eliminado</string>
+    <string name="dialog_negative_button_cancel">Cancelar</string>
+
+    <string name="toast_error_getting_selected_images">Error al obtener las imágenes seleccionadas</string>
+
+    <string name="dialog_confirm_delete_image_message">¿Estás segura de que deseas eliminar esta imagen?</string>
+    <string name="dialog_positive_button_delete_image">Eliminar</string>
+    <string name="toast_image_removed">Imagen eliminada</string>
+
+    <string name="image_picker_title">Seleccionar imágenes</string>
+    <string name="toast_permission_required">Permiso requerido para acceder a las imágenes</string>
+
+    <string name="appointment_status_updated">Estado de la cita actualizado a Completado</string>
+    <string name="error_failed_update_appointment_status">Error al actualizar el estado de la cita: %1$s</string>
+    <string name="error_uploading_image">Error al subir la imagen: %1$s</string>
+
+    <string name="diagnostic_added_successfully">Diagnóstico agregado exitosamente</string>
+    <string name="error_failed_add_diagnostic">Error al agregar el diagnóstico: %1$s</string>
+    <string name="error_generic">Error: %1$s</string>
+    <string name="error_unknown">Error: Ha ocurrido un error desconocido</string>
+
+    <string name="error_select_medication">Por favor selecciona un medicamento</string>
+    <string name="error_enter_hours">Ingresa las horas</string>
+    <string name="error_enter_days">Ingresa el número de días</string>
+    <string name="error_hours_greater_than_zero">Las horas deben ser mayores que 0</string>
+    <string name="error_days_greater_than_zero">Los días deben ser mayores que 0</string>
+
+    <string name="hint_vital_sign_value">Valor en %1$s</string>
+    <string name="error_enter_value">Por favor ingresa un valor</string>
+    <string name="error_invalid_format_blood_pressure">Formato inválido. Usa: 120/80</string>
+
+    <!-- Diagnostic Information -->
+    <string name="btn_my_medication">Mis medicamentos</string>
+    <string name="images">Imágenes</string>
+    <string name="prescribed_medicine">Medicamento recetado</string>
+    <string name="dosage">Dosis</string>
+    <string name="medicine_frequency">%1$d días; cada %2$d horas</string>
+    <string name="medication_name">Nombre del medicamento</string>
+
+    <string name="toast_frequency_updated_successfully">Frecuencia actualizada exitosamente</string>
+    <string name="toast_no_medications_available">No hay medicamentos disponibles para este diagnóstico</string>
+    <string name="error_fill_all_fields">Por favor completa todos los campos</string>
+    <string name="error_values_greater_than_zero">Los valores deben ser mayores que 0</string>
+    <string name="error_invalid_numeric_values">Por favor ingresa valores numéricos válidos</string>
+
+    <string name="error_loading_diagnostic_details">Error al cargar los detalles del diagnóstico</string>
+    <string name="error_no_diagnosis_found">No se encontró ningún diagnóstico</string>
+    <string name="error_updating_medication_frequency">Error al actualizar la frecuencia del medicamento</string>
+    <string name="error_no_diagnostic_for_appointment">No se encontró diagnóstico para esta cita</string>
+    <string name="error_loading_diagnostic">Error al cargar el diagnóstico: %1$s</string>
+
+    <string name="error_user_role_not_found">No se pudo determinar el rol del usuario</string>
+    <string name="error_loading_user_role">Error al cargar el rol del usuario</string>
+    <string name="error_user_not_authenticated">Usuario no autenticado</string>
+    <string name="error_user_not_found">Error: usuario no encontrado</string>
+    <string name="btn_medicines_text">Medicamentos</string>
+
+    <!-- Diagnostic View -->
+    <string name="diagnostics">Diagnósticos</string>
+    <string name="name_filter">Nombre</string>
+    <string name="date_filter">Fecha</string>
+    <string name="id_filter">ID</string>
+    <string name="diagnostic_name">Diagnóstico</string>
+    <string name="navigate_to_details">Ir a detalles</string>
+    <string name="date_icon">Ícono de fecha</string>
+    <string name="search_by_diagnostic">Buscar por diagnóstico</string>
+    <string name="date_range_format">%1$s — %2$s</string>
+    <string name="select_a_date_range">filtrar por rango de fechas</string>
+    <string name="error_fetching_diagnostics">Error al obtener diagnósticos</string>
+    <string name="error_user_not_logged_in">Error al obtener el ID del usuario conectado</string>
+    <string name="no_diagnostic_data_available">No hay datos de diagnóstico disponibles</string>
+    <string name="medicines_loaded">"Medicamentos cargados: "</string>
+    <string name="no_medicines_available">No hay medicamentos disponibles</string>
+</resources>

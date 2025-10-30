@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Home-patient
+    <string name="medicina_endocannabinoide">Medicina endocannabinoide</string>
+    <string name="appointments">Citas</string>
+    <string name="diagnoses">Diagnósticos</string>
+    <string name="medications">Medicamentos</string>
+    <string name="services">Servicios</string>
+    //Home-Doctor
+    <string name="patients">Pacientes</string>
+    <string name="schedule">Calendario</string>
+
+    <string name="home">Menu</string>
+    <string name="profile">Perfil</string>
+    <string name="chat">Chat</string>
+</resources>

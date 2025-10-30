@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Doctor View - Add Medication -->
+
+    <string name="med_back_arrow">Volver</string>
+    <string name="med_title_add_medication">Nueva Medicina</string>
+    <string name="med_lbl_medication_name">Nombre</string>
+    <string name="med_lbl_medication_description">Descripcion</string>
+    <string name="med_lbl_medication_dosage">Dosis</string>
+    <string name="med_lbl_medication_frequency">Frecuencia</string>
+    <string name="med_lbl_medication_every">Cada</string>
+    <string name="med_lbl_medication_hours">horas</string>
+    <string name="med_lbl_medication_for">Para</string>
+    <string name="med_lbl_medication_days">dias</string>
+    <string name="med_btn_medication_cancel">Cancelar</string>
+    <string name="med_btn_medication_save">Guardar</string>
+    <string name="med_hint_medication_value">Valor</string>
+    <string name="med_hint_X">X</string>
+
+    <!-- Doctor View - Medication List -->
+
+    <string name="description_search">Icono de busqueda</string>
+    <string name="description_back">Volver</string>
+    <string name="description_add">Agregar</string>
+    <string name="description_edit">Editar</string>
+    <string name="description_delete">Eliminar</string>
+    <string name="description_filter">Filtrar</string>
+    <string name="description_ML">Lista de Medicamentos</string>
+    <string name="text_search">Barra de busqueda</string>
+    <string name="text_registration_date">Registrar Fecha</string>
+    <string name="title_medication">Medicamento</string>
+
+    <!-- Filter - Add Medication -->
+    <string name="filter_by_name">Nombre</string>
+    <string name="filter_by_date">Fecha</string>
+    <string name="filter_by_dosage">Dosis</string>
+
+    <!-- Patient View - Medication List -->
+    <string name="medication_list_title">Medicamentos</string>
+    <string name="medication_list_in_use">En uso</string>
+    <string name="medication_list_suspended">Suspendido</string>
+    <string name="medication_list_terminated">Terminado</string>
+    <string name="search_by_name">Buscar por nombre</string>
+    <string name="search_by_date">Buscar por fecha</string>
+    <string name="search_by_dosage">Buscar por dosis</string>
+
+    <string name="save_button_text">Guardar</string>
+
+    <!-- Mensajes de alerta -->
+    <string name="fill_all_fields_message">Por favor, rellene todos los campos</string>
+    <string name="medication_added_successfully">Medicamento añadido correctamente</string>
+    <string name="failed_to_add_medication">No se pudo agregar el medicamento: </string>
+    <string name="medication_added">Medicación añadida</string>
+    <string name="medication_updated_successfully">Medicamento actualizado exitosamente</string>
+    <string name="failed_to_update_medication">No se pudo actualizar la medicación: </string>
+
+    <string name="confirm_deletion_title">Confirmar eliminación</string>
+    <string name="confirm_deletion_message">¿Está seguro de que desea eliminar este medicamento?</string>
+    <string name="delete_button_text">Eliminar</string>
+    <string name="cancel_button_text">Cancelar</string>
+
+    <string name="no_documents_found_message">No se encontraron documentos en la colección "medications".</string>
+    <string name="error_fetching_data">Error al obtener los datos: </string>
+    <string name="error_deleting_document">Error al eliminar el documento: </string>
+    <string name="no_assigned_medications_message">No tienes medicamentos asignados.</string>
+
+    <string name="error_loading_patient_info">Error al cargar la información del paciente</string>
+    <string name="no_medications_in_use">No hay medicamentos en uso</string>
+    <string name="no_medications_terminated">No hay medicamentos finalizados</string>
+
+    <string name="loading_medications">Cargando medicamentos...</string>
+    <string name="error_loading_diagnostics">Error al cargar diagnósticos</string>
+    <string name="no_assigned_medications">No hay medicamentos asignados</string>
+
+
+</resources>

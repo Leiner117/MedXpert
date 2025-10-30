@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Login Activity -->
+    <string name="login">Iniciar sesión</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="keep_me_logged_in">Mantenme conectado</string>
+    <string name="logo">logo</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="error_verifying_user">Error verificando el usuario</string>
+    <string name="error_fetching_user">Error obteniendo el usuario</string>
+    <string name="different_password">Contraseña incorrecta, por favor inténtalo de nuevo</string>
+
+    <!-- Register Activity -->
+    <string name="register_account">Registra tu cuenta</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="sign_in">Registrarse</string>
+    <string name="accept_terms">Aceptar los términos y condiciones de la aplicación</string>
+    <string name="or_login_with_social_media">O registra con tu cuenta de redes sociales</string>
+    <string name="facebook_login">Registrar con Facebook</string>
+    <string name="google_login">Registrar con Google</string>
+
+    <!-- Login and Register Message Strings -->
+    <string name="all_fields_required">Todos los campos son requeridos</string>
+    <string name="incorrect_email_format">Formato de correo incorrecto</string>
+    <string name="invalid_password">Contraseña no válida (mínimo 8 caracteres, una letra mayúscula, un número y un símbolo))</string>
+    <string name="google_sign_in_failed">Autenticación con Google fallida</string>
+    <string name="functionality_in_development">Funcionalidad en desarrollo</string>
+    <string name="firebase_storage_error">Error cargando la imagen</string>
+    <string name="google_signin_error">Logueo con Google fallido</string>
+    <string name="login_success">Login exitoso</string>
+    <string name="account_not_registered">Cuenta no registrada</string>
+    <string name="login_error">Error: %1$s</string>
+    <string name="error_user_null">Error usuario nulo</string>
+    <string name="error_email_registered">Este correo electrónico ya está registrado</string>
+    <string name="terms_conditions">Por favor acepte los términos y condiciones</string>
+    <string name="google_signup_error">Registro con Google fallido</string>
+    <string name="registration_successful">Registro exitoso!</string>
+    <string name="registration_error">Registro de error: %1$s</string>
+    <string name="background">Fondo</string>
+    <string name="account_registered_with_google">Esta cuenta se ha registrado en Google. Inicia sesión con Google.</string>
+    <string name="account_registered_with_email">Esta cuenta se ha registrado con Email y Contraseña. Inicia sesión con Email.</string>
+
+    <!-- Terms and Conditions -->
+    <string name="accept">Acceptar</string>
+    <string name="decline">Cancelar</string>
+    <string name="title_terms_conditions">Terminos y Condiciones</string>
+    <string name="error_loading_terms">Error cargando los términos y condiciones</string>
+    <string name="must_accept_terms"> Debe aceptar los términos y condiciones para continuar.</string>
+
+    <!-- Verification Code Activity -->
+    <string name="verification_code">Codigo de Verificación</string>
+    <string name="sent_a_verification_code">Hemos enviado un código de verificación a tu dispositivo. Introdúcelo a continuación.</string>
+    <string name="incorrect_code_please_try_again">Código incorrecto, por favor inténtalo de nuevo</string>
+    <string name="verify">Verificar</string>
+    <string name="didn_t_receive_the_code_resend">¿No recibiste el código? Reenviar</string>
+    <string name="code_verified_successfully">Codigo verificado exitosamente!</string>
+    <string name="code_resent_successfully">Codigo reenviado exitosamente!</string>
+
+    <!-- Email Service -->
+    <string name="email_service_error">Error enviando el correo: %1$s</string>
+    <string name="email_service_success">Correo enviado exitosamente!: %1$s</string>
+    <string name="email_service_failure">Error preparando el correo: %1$s</string>
+
+</resources>

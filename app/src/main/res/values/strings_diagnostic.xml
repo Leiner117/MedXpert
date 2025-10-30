@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Add Diagnostic -->
+    <string name="diagnostic_title">Diagnostic</string>
+    <string name="diagnostic_select_medication">Select medication</string>
+    <string name="diagnostic_title_usage_frequency">Edit usage frequency</string>
+
+    <string name="lb_form_name">Name</string>
+    <string name="lb_form_weight">Weight</string>
+    <string name="lb_form_physical_examination">Physical Examination</string>
+    <string name="lb_form_medicines">Medicines</string>
+    <string name="lb_form_vital_signs">Vital signs</string>
+    <string name="lb_form_heartbeat">Heartbeat</string>
+    <string name="lb_form_temperature">Temperature</string>
+    <string name="lb_form_blood_pressure">Blood Pressure</string>
+    <string name="lb_form_oxygen_saturation">Oxygen saturation</string>
+    <string name="lb_form_reason_for_consultation">Reason for consultation</string>
+    <string name="lb_form_subjective_condition">Subjective Condition</string>
+    <string name="lb_form_objective_condition">Objective Condition</string>
+    <string name="lb_form_analysis_and_plan">Analysis &amp; Plan</string>
+    <string name="lb_form_upload_images">Upload Images</string>
+
+    <string name="lb_form_selected_medication">Selected medication:</string>
+    <string name="lb_form_selected_every">Every:</string>
+    <string name="lb_form_selected_for">For:</string>
+    <string name="lb_form_selected_dosage">Dosage:</string>
+
+    <string name="lb_form_edit_medication_doctor">Medication:</string>
+
+    <string name="lb_form_sign_vital_title">Enter Value</string>
+    <string name="lb_form_sign_vital_description">Enter the corresponding value:</string>
+    <string name="btn_form_sign_vital_save">Save</string>
+
+    <string name="btn_form_add_medicines">Add Medicines</string>
+    <string name="btn_form_choose_image">Choose Image</string>
+    <string name="btn_form_save_diagnostic">Save Diagnostic</string>
+    <string name="btn_form_medecine_cancel">Cancel</string>
+    <string name="btn_form_medecine_delete">Delete</string>
+    <string name="btn_form_medecine_add">Add</string>
+
+    <string name="hint_form_diagnostic">Value</string>
+    <string name="hint_form_hours">Hours</string>
+    <string name="hint_form_days">Days</string>
+    <string name="hint_form_search">Search</string>
+
+    <string name="desc_form_upload">Upload</string>
+    <string name="desc_form_list_medication">Medication list</string>
+    <string name="desc_form_medicine_icon">Medicine icon</string>
+    <string name="desc_form_select_delete_medicine">Delete medicine</string>
+    <string name="desc_form_select_edit_medicine">Edit medicine</string>
+
+    <string name="hours_format">%d hours</string>
+    <string name="days_format">%d days</string>
+    <string name="selected_medicine">Selected medication: %1$s</string>
+    <string name="dialog_description">Enter the value of %1$s:</string>
+    <string name="lb_form_edit_medication_doctor_placeholder">Medication: %1$s</string>
+
+    <string name="error_weight_required">Weight is required</string>
+    <string name="error_physical_examination_required">Physical examination is required</string>
+    <string name="error_reason_for_consultation_required">Reason for consultation is required</string>
+    <string name="error_subjective_condition_required">Subjective condition is required</string>
+    <string name="error_objective_condition_required">Objective condition is required</string>
+    <string name="error_analysis_plan_required">Analysis plan is required</string>
+
+    <string name="error_vital_signs_required">All vital signs are required. Please complete:\n• Heart rate\n• Temperature\n• Blood pressure\n• Oxygen saturation</string>
+    <string name="vital_sign_heart_rate">Heart rate</string>
+    <string name="vital_sign_temperature">Temperature</string>
+    <string name="vital_sign_blood_pressure">Blood pressure</string>
+    <string name="vital_sign_oxygen_saturation">Oxygen saturation</string>
+
+    <string name="error_missing_vital_signs">The following vital signs are required:\n\n</string>
+    <string name="dialog_missing_vital_signs_title">Missing Vital Signs</string>
+
+    <string name="dialog_confirm_deletion_title">Confirm deletion</string>
+    <string name="dialog_confirm_delete_medication_message">Are you sure you want to delete this medication?</string>
+    <string name="dialog_positive_button_delete">Delete</string>
+    <string name="toast_medication_eliminated">Medication eliminated</string>
+    <string name="dialog_negative_button_cancel">Cancel</string>
+
+    <string name="toast_error_getting_selected_images">Error getting the selected images</string>
+
+    <string name="dialog_confirm_delete_image_message">Are you sure you want to delete this image?</string>
+    <string name="dialog_positive_button_delete_image">Delete</string>
+    <string name="toast_image_removed">Image removed</string>
+
+    <string name="image_picker_title">Select images</string>
+    <string name="toast_permission_required">Permission required to access images</string>
+
+    <string name="appointment_status_updated">Appointment status updated to Completed</string>
+    <string name="error_failed_update_appointment_status">Failed to update appointment status: %1$s</string>
+    <string name="error_uploading_image">Error uploading image: %1$s</string>
+
+    <string name="diagnostic_added_successfully">Diagnostic added successfully</string>
+    <string name="error_failed_add_diagnostic">Failed to add diagnostic: %1$s</string>
+    <string name="error_generic">Error: %1$s</string>
+    <string name="error_unknown">Error: Unknown error occurred</string>
+
+    <string name="error_select_medication">Please select a medication</string>
+    <string name="error_enter_hours">Enter the hours</string>
+    <string name="error_enter_days">Enter the number of days</string>
+    <string name="error_hours_greater_than_zero">Hours must be greater than 0</string>
+    <string name="error_days_greater_than_zero">Days must be greater than 0</string>
+
+    <string name="hint_vital_sign_value">Value in %1$s</string>
+    <string name="error_enter_value">Please enter a value</string>
+    <string name="error_invalid_format_blood_pressure">Invalid format. Use: 120/80</string>
+
+    <!-- Diagnostic Information -->
+    <string name="btn_my_medication">My medication</string>
+    <string name="images">Images</string>
+    <string name="prescribed_medicine">Prescribed medicine</string>
+    <string name="dosage">Dosage</string>
+    <string name="medicine_frequency">%1$d days; every %2$d hours</string>
+    <string name="medication_name">Medication name</string>
+
+    <string name="toast_frequency_updated_successfully">Frequency updated successfully</string>
+    <string name="toast_no_medications_available">There are no medications available for this diagnosis</string>
+    <string name="error_fill_all_fields">Please complete all fields</string>
+    <string name="error_values_greater_than_zero">Values must be greater than 0</string>
+    <string name="error_invalid_numeric_values">Please enter valid numeric values</string>
+
+    <string name="error_loading_diagnostic_details">Error loading diagnostic details</string>
+    <string name="error_no_diagnosis_found">No diagnosis found</string>
+    <string name="error_updating_medication_frequency">Error updating medication frequency</string>
+    <string name="error_no_diagnostic_for_appointment">No diagnostic found for this appointment</string>
+    <string name="error_loading_diagnostic">Error loading diagnostic: %1$s</string>
+
+    <string name="error_user_role_not_found">Could not determine user role</string>
+    <string name="error_loading_user_role">Error loading user role</string>
+    <string name="error_user_not_authenticated">User not authenticated</string>
+    <string name="error_user_not_found">Error: user not found</string>
+    <string name="btn_medicines_text">Medications</string>
+
+    <!-- Diagnostic View -->
+    <string name="diagnostics">Diagnostics</string>
+    <string name="name_filter">Name</string>
+    <string name="date_filter">Date</string>
+    <string name="id_filter">ID</string>
+    <string name="diagnostic_name">Diagnostic</string>
+    <string name="navigate_to_details">Navigate to details</string>
+    <string name="date_icon">Date icon</string>
+    <string name="search_by_diagnostic">Search by diagnostic</string>
+    <string name="date_range_format">%1$s — %2$s</string>
+    <string name="select_a_date_range">filter by date range</string>
+    <string name="error_fetching_diagnostics">Error getting diagnostics</string>
+    <string name="error_user_not_logged_in">Error getting the ID of the logged in user</string>
+    <string name="no_diagnostic_data_available">No diagnostic data available</string>
+    <string name="medicines_loaded">"Medicines loaded: "</string>
+    <string name="no_medicines_available">No medicines available</string>
+
+</resources>

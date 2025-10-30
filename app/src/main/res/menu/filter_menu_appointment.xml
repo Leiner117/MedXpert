@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filter_by_specialty"
+        android:title="@string/ap_filter_by_specialty" />
+    <item
+        android:id="@+id/filter_by_date"
+        android:title="@string/ap_filter_by_date" />
+</menu>

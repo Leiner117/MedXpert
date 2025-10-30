@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_margin="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <!-- Title Section -->
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ap_lbl_title_detail"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/closeDetailDialog" />
+
+        <ImageView
+            android:id="@+id/closeDetailDialog"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_close"
+            app:layout_constraintTop_toTopOf="@id/detailTitle"
+            app:layout_constraintBottom_toBottomOf="@id/detailTitle"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/appointmentTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cardiology_lbl"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@id/detailTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Status Section -->
+        <ImageView
+            android:id="@+id/statusIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_status"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/appointmentTitleTextView"
+            app:layout_constraintStart_toStartOf="parent" />
+        <TextView
+            android:id="@+id/statusLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ap_lbl_status"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toTopOf="@id/statusIcon"
+            app:layout_constraintStart_toEndOf="@id/statusIcon"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/detailStatusTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ap_lbl_status_value"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@id/statusLabel"
+            app:layout_constraintStart_toEndOf="@id/statusIcon"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <!-- Date Section -->
+        <ImageView
+            android:id="@+id/dateIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_calendar"
+            android:layout_marginTop="26dp"
+            app:layout_constraintTop_toTopOf="@id/detailStatusTextView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/dateLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@id/detailStatusTextView"
+            app:layout_constraintStart_toEndOf="@id/dateIcon"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/detailDateTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/date_text"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@id/dateLabel"
+            app:layout_constraintStart_toEndOf="@id/dateIcon"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Time Section -->
+        <ImageView
+            android:id="@+id/timeIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_clock"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/detailDateTextView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/timeLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ap_details_lbl_time"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toTopOf="@id/timeIcon"
+            app:layout_constraintStart_toEndOf="@id/timeIcon"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/detailTimeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ap_details_lbl_hour"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@id/timeLabel"
+            app:layout_constraintStart_toEndOf="@id/timeIcon"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Doctor Section -->
+        <ImageView
+            android:id="@+id/doctorIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_doctor"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/detailTimeTextView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/doctorLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ap_details_lbl_doctor"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toTopOf="@id/doctorIcon"
+            app:layout_constraintStart_toEndOf="@id/doctorIcon"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/detailDoctorTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ap_details_lbl_name_doctor"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@id/doctorLabel"
+            app:layout_constraintStart_toEndOf="@id/doctorIcon"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Comments Section -->
+        <ImageView
+            android:id="@+id/commentsIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_comments"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/detailDoctorTextView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/commentsLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ap_details_lbl_comments"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toTopOf="@id/commentsIcon"
+            app:layout_constraintStart_toEndOf="@id/commentsIcon"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/detailCommentsTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/comments_text"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintTop_toBottomOf="@id/commentsLabel"
+            app:layout_constraintStart_toEndOf="@id/commentsIcon"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:id="@+id/buttonContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/detailCommentsTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+            <Button
+                android:id="@+id/cancelAppointmentButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cancel_appointment"
+                android:textAllCaps="false"
+                app:cornerRadius="4dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/red" />
+            <Button
+                android:id="@+id/viewDiagnosisButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ap_details_lbl_view_diagnosis"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/blue"
+                android:visibility="gone"
+                app:cornerRadius="4dp"/>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

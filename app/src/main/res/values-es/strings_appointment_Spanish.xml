@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Patient View - Appointments List -->
+    <string name="ap_title_appointments">Citas</string>
+    <string name="ap_lbl_upcoming_appointments">Próximas citas</string>
+    <string name="ap_lbl_past_appointments">Citas pasadas</string>
+    <string name="ap_lbl_no_appointments">No tiene citas disponibles</string>
+    <string name="ap_lbl_filter_date">Fecha</string>
+    <string name="ap_lbl_filter_specialty">Especialidad</string>
+    <string name="ap_lbl_filter_hour">Hora</string>
+    <string name="ap_lbl_filter">Filtrar</string>
+    <string name="ap_lbl_search_by_name">Buscar por nombre</string>
+    <string name="ap_lbl_search_by_date">Buscar por fecha</string>
+    <string name="ap_lbl_search_by_specialty">Buscar por especialidad</string>
+
+    <!-- Doctor View - Appointment Details -->
+    <string name="doc_lbl_search_by_name">Buscar por nombre del paciente</string>
+    <string name="doc_lbl_search_by_id">Buscar por cédula del paciente</string>
+    <string name="doc_lbl_search_by_date">Buscar por fecha</string>
+    <string name="doc_lbl_search_by_specialty">Buscar por especialidad</string>
+
+    <!-- Appointment List - Filters -->
+    <string name="filter_by_name_patient">Nombre del paciente</string>
+    <string name="filter_by_id_patient">Cédula del paciente</string>
+    <string name="filter_by_date_appointment">Fecha</string>
+    <string name="filter_by_specialty_appointment">Especialidad</string>
+
+    <!-- Patient View - Book Appointment -->
+    <string name="ap_back_arrow">Atrás</string>
+    <string name="ap_title_book_appointment">Agendar cita</string>
+    <string name="ap_lbl_medical_specialty">Especialidad médica</string>
+    <string name="ap_lbl_select_a_specialty">Selecciona una especialidad</string>
+    <string name="ap_lbl_appointment_date">Fecha de la cita</string>
+    <string name="ap_lbl_select_date">Selecciona fecha</string>
+    <string name="ap_lbl_available_times">Horarios disponibles</string>
+    <string name="ap_lbl_select_a_time">Selecciona hora</string>
+    <string name="ap_lbl_additional_comments">Comentarios adicionales</string>
+    <string name="ap_lbl_write_comments">Escribe comentarios adicionales</string>
+    <string name="ap_btn_confirm">Confirmar</string>
+    <string name="delete">Eliminar</string>
+
+    <!-- Patient View and Doctor View - Appointment List - Tabs -->
+    <string name="ap_lbl_tab1">Próximas citas</string>
+    <string name="ap_lbl_tab2">Historial de citas</string>
+
+    <!-- Patient View - Appointment List -->
+    <string name="ap_btn_add_appointment">Agregar cita</string>
+    <string name="ap_lbl_search">Buscar</string>
+    <string name="ap_search_icon">TODO</string>
+    <string name="ap_lbl_specialty">Especialidad</string>
+    <string name="ap_lbl_date">Fecha</string>
+    <string name="ap_filter_icon">filtro</string>
+
+    <!-- Patient View and Doctor View - Appointment Details -->
+    <string name="ap_lbl_title_detail">Detalles de la cita</string>
+    <string name="cardiology_lbl">Cardiología con la Dra. Sarah Johnson</string>
+    <string name="ap_lbl_status">Estado</string>
+    <string name="ap_lbl_status_value">Confirmada</string>
+    <string name="date">Fecha</string>
+    <string name="date_text">Sábado, 15 de junio</string>
+    <string name="ap_details_lbl_time">Hora</string>
+    <string name="ap_details_lbl_hour">10:30 AM</string>
+    <string name="ap_details_lbl_doctor">Doctor</string>
+    <string name="ap_details_lbl_name_doctor">Dr. Sarah Johnson</string>
+    <string name="ap_details_lbl_comments">Comentarios</string>
+    <string name="ap_details_lbl_view_diagnosis">Ver diagnóstico</string>
+    <string name="comments_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, aenean cras cursus purus auctor rutrum, vitae dictum ullamcorper nulla rutrum a interdum.</string>
+    <string name="cancel_appointment">Cancelar cita</string>
+    <string name="ap_lbl_id_number">Número de cédula</string>
+    <string name="cardiology">Cardiología</string>
+    <string name="ap_details_lbl_patient">Paciente</string>
+    <string name="ap_details_lbl_name_patient">Lucia Johnson</string>
+    <string name="ap_details_id_number">123456789</string>
+    <string name="ap_details_register_diagnosis">Registrar diagnóstico</string>
+    <string name="ap_details_view_diagnosis">Ver diagnóstico</string>
+
+    <!-- Patient View - Cancel Appointment view -->
+    <string name="ap_lbl_cancel_title">Cancelar cita</string>
+    <string name="ap_lbl_confirmation_message">¿Estás seguro de que quieres cancelar esta cita médica?</string>
+    <string name="ap_btn_yes">Sí</string>
+    <string name="ap_btn_no">No</string>
+
+    <!-- Patient View - Delete Appointment Confirmation -->
+    <string name="ap_lbl_delete_title">Eliminar cita</string>
+    <string name="ap_lbl_delete_confirmation_message">¿Estás seguro de que quieres eliminar esta cita médica?</string>
+
+    <!-- Filters -->
+    <string name="ap_filter_by_date">Fecha</string>
+    <string name="ap_filter_by_specialty">Especialidad</string>
+
+    <!-- Patient View and Doctor - Appointment Item -->
+    <string name="ap_lbl_status_value_item">Completada</string>
+    <string name="ap_lbl_specialty_item">Cardiología</string>
+    <string name="ap_lbl_doctor_item">Dr. Sarah Johnson</string>
+    <string name="ap_lbl_calendar_icon">Icono de calendario</string>
+    <string name="ap_lbl_appointment_item">Sábado, 15 de junio 10:30 AM</string>
+    <string name="ap_lbl_details_arrow">Flecha de detalle</string>
+    <string name="ap_lbl_patient_item">Gerardo Perez Rojas</string>
+    <string name="ap_lbl_patient_id_item">2002364586</string>
+
+</resources>

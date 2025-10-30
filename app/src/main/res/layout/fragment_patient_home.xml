@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".ui.home.DoctorFragment">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/header" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/doctor_icon" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/medicina_endocannabinoide"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/appointmentsButton"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="38dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/appointments"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <Button
+        android:id="@+id/medicationsButton"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="38dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/medications"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diagnosesButton" />
+
+    <ImageView
+        android:id="@+id/AppointmentsArrow"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/appointmentsButton"
+        app:layout_constraintEnd_toEndOf="@+id/appointmentsButton"
+        app:layout_constraintTop_toTopOf="@+id/appointmentsButton"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/arrowforward" />
+
+    <ImageView
+        android:id="@+id/medicationIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/medicationsButton"
+        app:layout_constraintStart_toStartOf="@+id/medicationsButton"
+        app:layout_constraintTop_toTopOf="@+id/medicationsButton"
+        app:srcCompat="@drawable/medication" />
+
+    <ImageView
+        android:id="@+id/medicationsArrow"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/medicationsButton"
+        app:layout_constraintTop_toTopOf="@+id/medicationsButton"
+
+        app:srcCompat="@drawable/arrowforward" />
+
+    <Button
+        android:id="@+id/diagnosesButton"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="38dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/diagnoses"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appointmentsButton" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/services"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/appointmentsButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/diagnosesArrow"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/diagnosesButton"
+        app:layout_constraintTop_toTopOf="@+id/diagnosesButton"
+        app:srcCompat="@drawable/arrowforward" />
+
+    <ImageView
+        android:id="@+id/stethoscopeIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/diagnosesButton"
+        app:layout_constraintStart_toStartOf="@+id/diagnosesButton"
+        app:layout_constraintTop_toTopOf="@+id/diagnosesButton"
+        app:srcCompat="@drawable/stethoscope" />
+
+    <ImageView
+        android:id="@+id/calendarIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+
+
+        app:layout_constraintStart_toStartOf="@+id/appointmentsButton"
+        app:layout_constraintTop_toTopOf="@+id/appointmentsButton"
+        app:layout_constraintBottom_toBottomOf="@+id/appointmentsButton"
+        app:srcCompat="@drawable/calendar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

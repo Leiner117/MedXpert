@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Welcome_stepper strings
+    <string name="app_name">MedXpert</string>
+    <string name="welcome_message">Bienvenido a MedXpert!</string>
+    <string name="welcome_description">Esta aplicación te permite gestionar de forma fácil y segura tu información de salud, acceder a tu historial médico, citas, diagnósticos y comunicarte directamente con tu especialista. Mantente al tanto de tu tratamiento, recibe recordatorios y controla tu bienestar, todo en un solo lugar.</string>
+
+    // buttons strings
+    <string name="next_button">Siguiente</string>
+    <string name="skip_button">Saltar</string>
+    <string name="previous">Anterior</string>
+    <string name="finish_button">Finalizar</string>
+
+    //doctor_stepper strings
+    <string name="doctor_name">José Pablo Badilla Peralta</string>
+    <string name="telephone">Telephone:</string>
+    <string name="doctor_number">6050-5289</string>
+    <string name="Email">Correo:</string>
+    <string name="doctor_email">josepablobadilla27@gmail.com</string>
+    <string name="medical_code">Código Médico:</string>
+    <string name="doctor_medical_code">MED15378</string>
+    <string name="specialties_experience">Especialidades y Experiencia</string>
+    <string name="doctor_specialties">
+    &#8226; Médico general con experiencia en atención comunitaria, pediátrica, ginecológica, interna y quirúrgica.\n&#8226; Experto en atención de emergencias y servicios ambulatorios.\n&#8226; Médico deportivo de selecciones nacionales de fútbol.\n&#8226; Proveedor de atención sanitaria corporativa y privada.\n&#8226; Online consultations in Spanish, English, and Portuguese.
+    </string>
+    <string name="education_certifications">Educación y Certificaciones</string>
+    <string name="doctor_education">
+        &#8226; Medicina y Cirugía de la (UCIMED, Costa Rica).\n&#8226; Diplomada en Medicina del Deporte (Universidad del FC Barcelona). \n&#8226; Certificado en prescripción médica de cannabis. \n&#8226; Máster en Patología y Cirugía Avanzada de Rodilla. \n&#8226;Formación adicional en terapia con insulina, enfermedades metabólicas, pediatría, radiología de emergencia y soporte vital.\n
+    </string>
+    // consultation_approach_stepper strings
+    <string name="consultation_approach">Tipos de consulta disponibles</string>
+    <string name="general_consultation">Consulta Geneal</string>
+    <string name="general_consultation_description">
+        &#8226; Evaluación integral del paciente. \n&#8226; Diagnóstico, tratamiento y educación sobre su condición. \n&#8226; Seguimiento personalizado con enfoque médico-paciente.
+    </string>
+    <string name="pediatric_consultation">Consulta Pediátrica</string>
+    <string name="pediatric_consultation_description">
+        &#8226; Evaluación y tratamiento de enfermedades infantiles. \n&#8226; Seguimiento del crecimiento y desarrollo infantil.
+    </string>
+    <string name="gynecological_consultation">Consulta Ginecológica</string>
+    <string name="gynecological_consultation_description">
+        &#8226; Evaluaciones de salud femenina. \n&#8226; Diagnóstico y tratamiento de enfermedades ginecológicas.
+    </string>
+    //Internal Medicine
+    <string name="internal_medicine_consultation">Medicina interna </string>
+    <string name="internal_medicine_consultation_description">
+        &#8226; Manejo de enfermedades crónicas y agudas en adultos. \n&#8226; Diagnóstico y control de trastornos metabólicos.
+    </string>
+    //General Surgery Consultation
+    <string name="general_surgery_consultation">Consulta de Cirugía General</string>
+    <string name="general_surgery_consultation_description">
+        &#8226; Evaluación preoperatoria y postoperatoria. \n&#8226; Manejo de heridas y procedimientos menores.
+    </string>
+    <string name="emergency_medicine_consultation">Medicina de emergencia </string>
+    <string name="emergency_medicine_consultation_description">
+        &#8226; Atención en situaciones de urgencia. \n&#8226; Manejo de pacientes en áreas de urgencias y COVID-19.
+    </string>
+    //Sports Medicine and Injury Prevention
+    <string name="sports_medicine_consultation">Medicina deportiva y prevención de lesiones </string>
+    <string name="sports_medicine_consultation_description">
+        &#8226; Evaluación y manejo de lesiones deportivas. \n&#8226; Advice on injury prevention and rehabilitation.
+    </string>
+    //Endocannabinoid Medicine
+    <string name="endocannabinoid_medicine_consultation">Medicina endocannabinoide</string>
+    <string name="endocannabinoid_medicine_consultation_description">
+        &#8226; Asesoramiento y uso de cannabinoides (CBD y derivados). \n&#8226; Aplicación en diversas condiciones médicas.
+    </string>
+    //Diabetes Education and Management
+    <string name="diabetes_education_consultation">Educación y manejo de la diabetes </string>
+    <string name="diabetes_education_consultation_description">
+        &#8226; Control y tratamiento personalizado. \n&#8226; Educación en hábitos saludables y prevención de complicaciones.
+    </string>
+
+</resources>

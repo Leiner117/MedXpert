@@ -1,0 +1,107 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
+    id("dagger.hilt.android.plugin")
+    id("com.google.gms.google-services")
+}
+
+android {
+    namespace 'com.tec.medxpert'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.tec.medxpert"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+
+
+
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+}
+
+
+dependencies {
+
+    implementation(libs.core.ktx)
+    implementation(libs.appcompat)
+    implementation(libs.material)
+    implementation(libs.constraintlayout.v214)
+
+
+
+    // Example: Room dependencies
+    implementation(libs.room.runtime)
+    implementation libs.activity
+    implementation libs.monitor
+    implementation libs.ext.junit
+    implementation libs.firebase.database
+    androidTestImplementation libs.junit.junit
+    implementation libs.firebase.firestore
+    implementation libs.firebase.storage
+    implementation libs.firebase.auth
+    implementation libs.credentials
+    implementation libs.credentials.play.services.auth
+    implementation libs.googleid
+    kapt(libs.room.compiler)
+    implementation(libs.room.ktx)
+
+    // Example: Hilt
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.android.compiler)
+
+    // Import the Firebase BoM
+    implementation platform(libs.firebase.bom)
+    // Firebase dependencies
+    implementation libs.firebase.analytics
+    implementation libs.firebase.auth
+    implementation libs.firebase.firestore
+
+    // Google Play Services Authentication
+    implementation libs.play.services.auth
+
+    // Google Play Service Storage
+    implementation libs.glide
+    annotationProcessor libs.compiler
+    implementation libs.firebase.storage
+    //hashing password with bcrypt
+    implementation libs.bcrypt
+
+    //RXJava
+    implementation libs.rxjava
+    implementation libs.rxandroid
+
+    //bcrypt
+    implementation libs.jbcrypt
+
+
+    implementation libs.okhttp
+
+    implementation(platform("com.google.firebase:firebase-bom:33.12.0"))
+    implementation("com.google.firebase:firebase-analytics")
+
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.2"
+}
+
+kapt {
+    correctErrorTypes true
+}

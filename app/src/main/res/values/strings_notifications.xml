@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appointment_channel_description">Notifications for medical appointment reminders</string>
+    <string name="appointment_reminder_title">Appointment reminder</string>
+    <string name="appointment_tomorrow_message">%1$s you have an appointment tomorrow at %2$s</string>
+    <string name="appointment_in_4_hours_message">%1$s you have an appointment in 4 hours at %2$s</string>
+</resources>

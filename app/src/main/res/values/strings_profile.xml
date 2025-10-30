@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Patient View - Register Profile -->
+    <string name="create_profile">Create Profile</string>
+    <string name="tab_profile">Profile</string>
+    <string name="tab_change_history">Change History</string>
+    <string name="change_history">Change History</string>
+    <string name="no_history_available">No history available</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="medical_information">Medical Information</string>
+    <string name="register">Register</string>
+    <string name="id_type_card">ID type</string>
+    <string name="select_id_type">Select ID type</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="name">Name</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_email">Enter email</string>
+    <string name="blood_type">Blood type</string>
+    <string name="select_blood_type">Select blood type</string>
+    <string name="weight">Weight</string>
+    <string name="enter_weight">Enter weight</string>
+    <string name="height">Height</string>
+    <string name="enter_height">Enter height</string>
+    <string name="allergies">Allergies</string>
+    <string name="select_allergies">Select allergies</string>
+    <string name="personal_medical_history">Personal medical history</string>
+    <string name="view_personal_medical_history">View personal medical history</string>
+    <string name="family_medical_history">Family medical history</string>
+    <string name="view_family_medical_history">View family medical history</string>
+    <string name="identification">Identification</string>
+    <string name="enter_identification">Enter identification</string>
+    <string name="phone">Phone</string>
+    <string name="enter_phone">Enter phone</string>
+    <string name="medical_license_code">Medical License Code</string>
+    <string name="enter_medical_license_code">Enter medical license code</string>
+
+    <!-- Patient View - Change History Profile -->
+    <string name="no_change_history_available">No change history available</string>
+
+    <!-- Patient View - Fragment Allergies -->
+    <string name="current_allergies">Current Allergies</string>
+    <string name="add_new_allergy">Add New Allergy</string>
+    <string name="enter_allergy">Enter allergy</string>
+    <string name="add">Add</string>
+
+    <!-- Patient View - Fragment Family Medical History -->
+    <string name="medical_history">Medical History</string>
+    <string name="current_medical_conditions">Current Medical Conditions</string>
+    <string name="add_new_medical_condition">Add New Medical Condition</string>
+    <string name="enter_medical_condition">Enter medical condition</string>
+    <string name="save_changes">Save Changes</string>
+
+    <!-- Patient View - Fragment Personal Medical History -->
+    <string name="change_in">Change in</string>
+    <string name="current">Current:</string>
+    <string name="date_of_change">Date of change:</string>
+    <string name="time">Time:</string>
+    <string name="changed_by">Changed by:</string>
+    <string name="search_by_name_or_id">Search by name or ID</string>
+    <string name="filter">Filter</string>
+    <string name="registration_date">Reg. Date</string>
+    <string name="no_patients_found">No patients found</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!-- Doctor Profile -->
+    <string name="add_education">Add Education</string>
+    <string name="add_work_experience">Add Work Experience</string>
+    <string name="profile_saved">Profile saved successfully</string>
+    <string name="doctor_profile">Doctor Profile</string>
+    <string name="specialties">Specialties</string>
+    <string name="select_specialties">Select specialties</string>
+    <string name="no_specialties_added">No specialties added</string>
+
+    <!-- New filter strings -->
+    <string name="filter_oldest">Oldest first</string>
+    <string name="filter_newest">Newest first</string>
+    <string name="filter_a_z">A-Z</string>
+    <string name="filter_z_a">Z-A</string>
+
+    <string name="education">Education</string>
+    <string name="no_education_records_added">No education records added</string>
+    <string name="work_experience">Work Experience</string>
+    <string name="no_work_experience_added">No work experience added</string>
+    <string name="consultation_focus">Consultation Focus</string>
+    <string name="enter_consultation_focus">Enter consultation focus</string>
+
+
+</resources>

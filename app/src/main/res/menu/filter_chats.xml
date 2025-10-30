@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filter_by_name"
+        android:title="@string/filter_by_name" />
+    <item
+        android:id="@+id/filter_by_id"
+        android:title="@string/filter_by_id" />
+</menu>

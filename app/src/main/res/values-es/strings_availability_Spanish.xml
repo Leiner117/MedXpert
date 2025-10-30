@@ -1,0 +1,17 @@
+<resources>
+    <!-- Doctor View - Add Availability -->
+    <string name="av_back_arrow">Atrás</string>
+    <string name="av_title_register_availability">Registrar disponibilidad</string>
+    <string name="av_lbl_select_date">Selecciona fecha</string>
+    <string name="av_lbl_select_time">Selecciona hora</string>
+    <string name="av_btn_add_time_slot">Agregar franja horaria</string>
+    <string name="av_lbl_time_slots">Horarios disponibles</string>
+    <string name="av_lbl_selected_date">Fecha seleccionada</string>
+    <string name="av_tab_register">Registrar</string>
+    <string name="av_tab_schedule">Agenda</string>
+    <string name="time_availability">10:00 AM</string>
+    <string name="av_no_availability">No hay horarios disponibles para esta fecha.</string>
+
+    <!-- Doctor View - Add Availability - Time slot -->
+    <string name="av_time_slot">08:00 AM</string>
+</resources>

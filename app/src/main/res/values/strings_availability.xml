@@ -1,0 +1,17 @@
+<resources>
+    <!-- Doctor View - Add Availability -->
+    <string name="av_back_arrow">Back</string>
+    <string name="av_title_register_availability">Register Availability</string>
+    <string name="av_lbl_select_date">Select Date</string>
+    <string name="av_lbl_select_time">Select Time</string>
+    <string name="av_btn_add_time_slot">Add Time Slot</string>
+    <string name="av_lbl_time_slots">Available Time Slots</string>
+    <string name="av_lbl_selected_date">Selected Date</string>
+    <string name="av_tab_register">Register</string>
+    <string name="av_tab_schedule">Schedule</string>
+    <string name="time_availability">10:00 AM</string>
+    <string name="av_no_availability">There are no available time slots for this date.</string>
+
+    <!-- Doctor View - Add Availability - Time slot  -->
+    <string name="av_time_slot">08:00 AM</string>
+</resources>

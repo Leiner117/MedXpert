@@ -1,0 +1,73 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android Studio
+.idea/
+.gradle/
+
+# Build files
+/build/
+**/build/
+
+# Sign-in keys
+*.jks
+
+# APKs and bundles
+*.apk
+*.ap_
+*.aab
+
+# Crash logs
+*.log
+
+# Captures
+captures/
+
+# Google Services and Firebase
+google-services.json
+app/google-services.json
+firebase.json
+/app/google-services.json
+
+# Gradle
+!gradle-wrapper.jar
+gradle-wrapper.properties
+gradle-wrapper.jar
+
+# Groovy
+*.class
+*.jar
+
+# Kotlin (por si se mezcla con Java)
+*.kotlin_module
+
+# CMake / NDK
+.cxx/
+.externalNativeBuild/
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+*.swp
+*~
+
+# Coverage reports
+*.ec
+coverage/
+
+# Misc
+*.hprof
+output.json

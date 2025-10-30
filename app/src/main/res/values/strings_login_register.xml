@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Login Activity -->
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="keep_me_logged_in">Keep me logged in</string>
+    <string name="logo">logo</string>
+    <string name="log_out">Log Out</string>
+    <string name="error_verifying_user">Error verifying user</string>
+    <string name="error_fetching_user">Error fetching user</string>
+    <string name="different_password">Incorrect password, please try again</string>
+
+    <!-- Register Activity -->
+    <string name="register_account">Register your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign up</string>
+    <string name="accept_terms">Accept the terms and conditions of the application</string>
+    <string name="or_login_with_social_media">Or login with your social media account</string>
+    <string name="facebook_login">Login with Facebook</string>
+    <string name="google_login">Login with Google</string>
+
+    <!-- Login and Register Message Strings -->
+    <string name="all_fields_required">All fields are required</string>
+    <string name="incorrect_email_format">Incorrect email format</string>
+    <string name="invalid_password">Invalid password (minimum 8 characters, one capital letter, one number, and one symbol)</string>
+    <string name="google_sign_in_failed">Google Sign-In failed</string>
+    <string name="functionality_in_development">Functionality in development</string>
+    <string name="firebase_storage_error">Error loading image</string>
+    <string name="google_signin_error">Google Sign-In failed</string>
+    <string name="login_success">Login successfully</string>
+    <string name="account_not_registered">Account not registered</string>
+    <string name="login_error">Error: %1$s</string>
+    <string name="error_user_null">Error user null</string>
+    <string name="error_email_registered">This email is already registered</string>
+    <string name="terms_conditions">Please accept the terms and conditions</string>
+    <string name="google_signup_error">Google Sign-Up failed</string>
+    <string name="registration_successful">Registration successful!</string>
+    <string name="registration_error">Registration error: %1$s</string>
+    <string name="background">background</string>
+    <string name="account_registered_with_google">This account was registered with Google. Please sign in with Google.</string>
+    <string name="account_registered_with_email">This account was registered with Email and Password. Please sign in with Email.</string>
+
+    <!-- Terms and Conditions -->
+    <string name="accept">I Accept</string>
+    <string name="decline">I Decline</string>
+    <string name="title_terms_conditions">Terms and Conditions</string>
+    <string name="error_loading_terms">Error loading terms and conditions</string>
+    <string name="must_accept_terms"> You must accept the terms and conditions to continue.</string>
+
+    <!-- Verification Code Activity -->
+    <string name="verification_code">Verification Code</string>
+    <string name="sent_a_verification_code">We\'ve sent a verification code to your device. Please enter it below.</string>
+    <string name="incorrect_code_please_try_again">Incorrect code. Please try again.</string>
+    <string name="verify">Verify</string>
+    <string name="didn_t_receive_the_code_resend">Didn\'t receive the code? Resend</string>
+    <string name="code_verified_successfully">Code verified successfully!</string>
+    <string name="code_resent_successfully">Code resent successfully</string>
+
+    <!-- Email Service -->
+    <string name="email_service_error">Error sending email: %1$s</string>
+    <string name="email_service_success">Email sent successfully: %1$s</string>
+    <string name="email_service_failure">Error preparing email: %1$s</string>
+
+</resources>
